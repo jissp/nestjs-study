@@ -4,7 +4,6 @@
   "sourceRoot": "apps/nestjs-study/src",
   "compilerOptions": {
     "deleteOutDir": true,
-    "webpack": true,
     "tsConfigPath": "apps/nestjs-study/tsconfig.app.json"
   },
   "monorepo": true,
