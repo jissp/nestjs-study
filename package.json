@@ -8,7 +8,8 @@
   "scripts": {
     "build": "nest build",
     "start": "nest start",
-    "start:dev": "nest start --watch"
+    "start:dev": "nest start --watch",
+    "start:decorator-method-overriding-example": "nest start decorator-method-overriding-example --watch"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",

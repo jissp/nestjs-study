@@ -4,6 +4,7 @@
   "sourceRoot": "apps/nestjs-study/src",
   "compilerOptions": {
     "deleteOutDir": true,
+    "webpack": false,
     "tsConfigPath": "apps/nestjs-study/tsconfig.app.json"
   },
   "monorepo": true,
@@ -18,13 +19,13 @@
         "tsConfigPath": "apps/nestjs-study/tsconfig.app.json"
       }
     },
-    "decorator-example1": {
+    "decorator-method-overriding-example": {
       "type": "application",
-      "root": "apps/decorator-example1",
+      "root": "apps/decorator-method-overriding-example",
       "entryFile": "main",
-      "sourceRoot": "apps/decorator-example1/src",
+      "sourceRoot": "apps/decorator-method-overriding-example/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/decorator-example1/tsconfig.app.json"
+        "tsConfigPath": "apps/decorator-method-overriding-example/tsconfig.app.json"
       }
     }
   }
